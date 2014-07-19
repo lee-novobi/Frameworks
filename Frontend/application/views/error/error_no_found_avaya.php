@@ -1,0 +1,2 @@
+<div><h1 style="text-align: center;">NO FOUND IP AVAYA !!!</h1><br />
+<p style="text-align: center; vertical-align: middle;"><img src="<?php echo $base_url;?>asset/images/phone_running.png" width="250px" /></p></div>

@@ -1,0 +1,2 @@
+<div><h1 style="text-align: center;">NO FOUND USER!!!</h1><br />
+<p style="text-align: center; vertical-align: middle;"><img src="<?php echo $base_url;?>asset/images/user_not_found.png" width="250px" /></p></div>

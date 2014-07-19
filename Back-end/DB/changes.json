@@ -1,0 +1,3 @@
+{ "_id" : { "$oid" : "529efeb19a7345dffba1ea5e" }, "active" : "ma_maintenances", "name" : "maintenances", "passive" : "maintenances" }
+{ "_id" : { "$oid" : "529efed39a7345dffba1ea5f" }, "active" : "ma_maintenances_hosts", "name" : "maintenances_hosts", "passive" : "maintenances_hosts" }
+{ "_id" : { "$oid" : "529efef29a7345dffba1ea60" }, "active" : "maintenances_groups", "name" : "maintenances_groups", "passive" : "ma_maintenances_groups" }

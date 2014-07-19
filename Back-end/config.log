@@ -1,0 +1,68 @@
+file /home/hieutt/mongo-cxx-driver-v2.4/SConstruct,line 70:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for C++ library boost_thread-mt... 
+.sconf_temp/conftest_0.cpp <-
+  |
+  |
+  |
+  |int
+  |main() {
+  |  
+  |return 0;
+  |}
+  |
+g++ -o .sconf_temp/conftest_0.o -c -O3 -pthread -D_SCONS -DMONGO_EXPOSE_MACROS -Ibuild -Ibuild/mongo .sconf_temp/conftest_0.cpp
+g++ -o .sconf_temp/conftest_0 -Wl,--as-needed -Wl,-zdefs -pthread .sconf_temp/conftest_0.o -lboost_thread-mt
+scons: Configure: yes
+
+scons: Configure: Checking for C++ library boost_filesystem-mt... 
+.sconf_temp/conftest_1.cpp <-
+  |
+  |
+  |
+  |int
+  |main() {
+  |  
+  |return 0;
+  |}
+  |
+g++ -o .sconf_temp/conftest_1.o -c -O3 -pthread -D_SCONS -DMONGO_EXPOSE_MACROS -Ibuild -Ibuild/mongo .sconf_temp/conftest_1.cpp
+g++ -o .sconf_temp/conftest_1 -Wl,--as-needed -Wl,-zdefs -pthread .sconf_temp/conftest_1.o -lboost_thread-mt -lboost_filesystem-mt
+scons: Configure: yes
+
+scons: Configure: Checking for C++ library boost_system-mt... 
+.sconf_temp/conftest_2.cpp <-
+  |
+  |
+  |
+  |int
+  |main() {
+  |  
+  |return 0;
+  |}
+  |
+g++ -o .sconf_temp/conftest_2.o -c -O3 -pthread -D_SCONS -DMONGO_EXPOSE_MACROS -Ibuild -Ibuild/mongo .sconf_temp/conftest_2.cpp
+g++ -o .sconf_temp/conftest_2 -Wl,--as-needed -Wl,-zdefs -pthread .sconf_temp/conftest_2.o -lboost_thread-mt -lboost_filesystem-mt -lboost_system-mt
+scons: Configure: yes
+
+scons: Configure: Checking for gsasl_check_version(GSASL_VERSION) in C library gsasl... 
+.sconf_temp/conftest_3.c <-
+  |
+  |
+  |#include "gsasl.h"
+  |
+  |int
+  |main() {
+  |  gsasl_check_version(GSASL_VERSION);
+  |return 0;
+  |}
+  |
+gcc -o .sconf_temp/conftest_3.o -c -O3 -pthread -D_SCONS -DMONGO_EXPOSE_MACROS -Ibuild -Ibuild/mongo .sconf_temp/conftest_3.c
+.sconf_temp/conftest_3.c:3:19: error: gsasl.h: No such file or directory
+.sconf_temp/conftest_3.c: In function 'main':
+.sconf_temp/conftest_3.c:7: error: 'GSASL_VERSION' undeclared (first use in this function)
+.sconf_temp/conftest_3.c:7: error: (Each undeclared identifier is reported only once
+.sconf_temp/conftest_3.c:7: error: for each function it appears in.)
+scons: Configure: no
+
+

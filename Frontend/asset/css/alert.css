@@ -1,0 +1,65 @@
+/* Main.css version 1.0
+ * Project : Monitor Assistant
+ * Designer : SDK - VNG
+================================================== */
+/* BEGIN: MAIN PAGE */
+.contact-link { margin-left: 2px; margin-right: 2px;}
+.email img {margin-bottom: 2px;}
+
+/* CSS Style for Num of case CS and 123Pay */
+.numof-case {
+	background-color: #EDEDE4; 
+	padding: 1px 5px; 
+	font-weight: bold; 
+	color: #0000A3;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+div.scrollWrapper {
+  	height:350px;
+  	overflow:scroll;
+}
+
+.numof-call {
+	background-color: #FFFF00; 
+	padding: 1px 4px; 
+	font-weight: bold; 
+	color: #0000A3;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.noof-call {
+	/*background: -webkit-linear-gradient(top, #fa3c45, #dc0d17);*/
+	background: -webkit-linear-gradient(top, #FF1919, #FF0000);
+	background: -moz-linear-gradient(top, #FF1919, #FF0000);
+	/*background: -webkit-linear-gradient(top, #fff, #EDEDE4);*/
+	/* height: 14px; */ 
+	/* line-height: 14px; */ 
+	min-width: 12px; 
+	padding: 1px 4px; 
+	top: -8px; 
+	left: -3px; 
+	position: relative;
+	 font-weight: bold; 
+	color: #FFFFFF;
+	-webkit-border-radius: 2px;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .7);
+	-webkit-font-smoothing: antialiased;
+	-moz-border-radius: 2px;
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .7);
+	-moz-font-smoothing: antialiased;
+	border-radius: 3px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .7);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, .4);
+}
+
+.noof-call:hover {
+	background: -webkit-linear-gradient(top, #fff, #EDEDE4);
+	background: -moz-linear-gradient(top, #fff, #EDEDE4);
+	color: #FF0000;
+	text-shadow: none;
+}
